@@ -2,8 +2,10 @@ Most modern AI is "System-1"—it’s fast, intuitive, and great at recognizing 
 
 This project implements a Neuro-Symbolic architecture to bridge that gap. By combining a raw Neural Network (System-1) with a Formal Logic layer (System-2), we create a system that doesn't just "see" numbers—it understands the rules they must follow.
 
+
  
  Why this is different?
+
 
 Instead of relying solely on a "black box" model, this pipeline uses a Logical Handshake:
 
@@ -14,7 +16,9 @@ The Critic (Symbolic Logic): Checks those guesses against hard mathematical rule
 The Decision: If the AI's top guess violates the rules, the Logic layer vetoes it and selects the next best visually similar candidate that is logically valid.
 
 
-📂 Project Structure
+
+Project Structure
+
 
 
 I've organized the code into three distinct modules to follow professional software engineering standards:
